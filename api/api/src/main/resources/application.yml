@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: api
+jwt:
+  secret: ${JWT_SECRET}
+  expiration: 900000
